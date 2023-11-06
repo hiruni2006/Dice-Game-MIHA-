@@ -1,0 +1,117 @@
+body{
+    background: #082f4c;
+    font-family: tahoma;
+}
+.ground{
+    width: 50vw;
+    float: left;
+    border-right: 2px solid white;
+}
+.heading{
+    color: white;
+    border-bottom: 2px solid #3fd39d;
+    padding-bottom: 20px;
+}
+.diceArea{
+    text-align: center;
+}
+.diceArea > img{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 2px black;
+}
+.diceArea > img:nth-child(1){
+    margin-right: 10px;
+}
+.diceArea > img:nth-child(2){
+    margin-left: 10px;
+}
+.box2{
+    width: 40vw;
+    height: 50vh;
+    float: right;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.buttonArea{
+    text-align: center;
+    margin-top: 50px;
+}
+.buttonArea > button:nth-child(1){
+    margin-right: 120px;
+}
+.buttonArea > button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #3fd39d;
+    color: #082f4c;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px black;
+}
+.buttonArea > button:hover{
+    background: white;
+    color: #082f4c;
+}
+.scorebox{
+    color: white;
+}
+.scorebox:nth-child(1){
+    padding-bottom: 70px;
+}
+.scoreName{
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid #3fd39d;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.score{
+    border: 2px solid #3fd39d;
+    padding: 20px;
+    border-left: 2px solid #3fd39d;
+    background: #3fd39d;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
+    color: #082f4c;
+    box-shadow: 0px 0px 20px 2px black;
+    transition: 1s;
+}
+.total{
+    margin-top: 65px;
+    font-size: 50px;
+    color: white;
+}
+.totalMarks{
+    color: #3fd39d;
+}
+.scoreTable{
+    clear: float;
+    margin-top: 330px;
+    border-top: 2px solid #3fd39d;
+}
+table{
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+table, table tr, table td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.selected{
+    color: #3fd39d;
+    font-weight: bold;
+}
+.tableHeading{
+    background: white;
+    color: #082f4c;
+}

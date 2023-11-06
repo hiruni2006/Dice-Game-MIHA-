@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Roll a die!</title>
+	<link rel='stylesheet' href='style.css' type='text/css'>
+</head>
+<body>
+	<h1 class='heading'>
+		<center>
+			Roll-a-die!
+		</center>
+	</h1>
+	<div class="ground">
+		<div class="diceArea">
+			<img src="diceTextures/p1.png" class='die1' id='img1'>
+			<img src="diceTextures/p1.png" class='die2' id='img2'>
+		</div>
+		<div class="buttonArea">
+			<button id='aBtn' onclick="randomNumber(); aPressed(); countA()">Roll A's</button>
+			<button id='bBtn' onclick="randomNumber(); bPressed(); countB()">Roll B's</button>
+		</div>
+	</div>
+	<div class="box2">
+    <div class="scorebox">
+        <span class='scoreName'>A Count: </span>
+        <span class="score" id='aScore'>Roll</span>
+    </div>
+    <div class="scorebox">
+        <span class='scoreName'>B Count: </span>
+        <span class="score" id='bScore'>Roll</span>
+    </div>
+    <h1 class="total">Total: <span class="totalMarks">-</span></h1>
+</div>
+<br>
+<div class="scoreTable">
+    <center>
+    	<table cellpadding="10">
+    	<tr>
+    		<td class='tableHeading'><b>Player</b></td>
+    		<td class='tableHeading'><b>Total</b></td>
+    	</tr>
+    	<tr>
+    		<td>A</td>
+    		<td><span id="aTotal" class='selected'>0</span></td>
+    	</tr>
+    	<tr>
+    		<td>B</td>
+    		<td><span id="bTotal" class='selected'>0</span></td>
+    	</tr>
+    </table>
+    </center>
+</div>
+<script type="text/javascript" src='script.js'></script>
+</body>
+</html>
